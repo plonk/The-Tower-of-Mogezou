@@ -86,7 +86,6 @@
        (scr-format "w,a,s,d,q,rの中から選んでください！~%")))
     (encount-enemy pt map) ;;敵との当たり判定
     (enemy-move map)       ;;敵移動
-    (show-map map pt)      ;;マップ表示
     (encount-enemy pt map) ;;敵との当たり判定
     (map-move map pt)))
 
